@@ -1,0 +1,5 @@
+models/*
+data/*
+notebooks/*
+.virtual_documents/*
+.mypy_cache/*
