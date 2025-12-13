@@ -1,0 +1,10 @@
+__pycache__
+node_modules
+.mypy_cache
+.virtual_documents
+.vscode
+api/artifacts
+catboost_info
+models
+notebooks
+data
