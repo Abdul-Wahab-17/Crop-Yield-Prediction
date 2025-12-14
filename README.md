@@ -227,18 +227,16 @@ curl -X POST http://localhost:5000/predict-regional \
 - Check CORS settings in `api/app.py`
 - Verify API endpoint URLs in frontend code
 
-## 📄 License
-
-[Add your license here]
 
 ## 👥 Authors
 
-[Add author names here]
+Abdul Wahab
 
 ## 🙏 Acknowledgments
 
 - USDA NASS for agricultural data
 - Climate data sources
 - Open-source ML libraries
+
 
 
