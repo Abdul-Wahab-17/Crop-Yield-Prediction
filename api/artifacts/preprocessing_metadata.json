@@ -1,0 +1,90 @@
+{
+  "feature_names": [
+    "Year",
+    "tavg_growing_avg",
+    "tmin_growing_avg",
+    "tmax_growing_avg",
+    "prcp_growing_total",
+    "rh_growing_avg",
+    "gdd_total",
+    "heat_stress_days",
+    "temp_range_avg",
+    "clay_pct",
+    "sand_pct",
+    "silt_pct",
+    "organic_matter_pct",
+    "ph",
+    "bulk_density",
+    "cec",
+    "awc",
+    "Latitude",
+    "Longitude",
+    "Year_Since_Start",
+    "Year_Squared",
+    "temp_prcp_interaction",
+    "gdd_per_day",
+    "moisture_stress",
+    "soil_quality_score",
+    "loam_index",
+    "temp_variability",
+    "extreme_heat_flag",
+    "lat_squared",
+    "long_squared",
+    "lat_long_interaction",
+    "Crop_Encoded",
+    "State_Encoded",
+    "County_Encoded"
+  ],
+  "n_features": 34,
+  "extreme_heat_threshold": 34.3165306122449,
+  "feature_groups": {
+    "weather": [
+      "tavg_growing_avg",
+      "tmin_growing_avg",
+      "tmax_growing_avg",
+      "prcp_growing_total",
+      "rh_growing_avg",
+      "gdd_total",
+      "heat_stress_days",
+      "temp_range_avg",
+      "temp_prcp_interaction",
+      "gdd_per_day",
+      "moisture_stress",
+      "temp_variability"
+    ],
+    "soil": [
+      "clay_pct",
+      "sand_pct",
+      "silt_pct",
+      "organic_matter_pct",
+      "ph",
+      "bulk_density",
+      "cec",
+      "awc",
+      "soil_quality_score",
+      "loam_index"
+    ],
+    "geo": [
+      "Latitude",
+      "Longitude",
+      "lat_squared",
+      "long_squared",
+      "lat_long_interaction"
+    ],
+    "time": [
+      "Year",
+      "Year_Since_Start",
+      "Year_Squared"
+    ],
+    "categorical": [
+      "Crop_Encoded",
+      "State_Encoded",
+      "County_Encoded"
+    ],
+    "flags": [
+      "extreme_heat_flag"
+    ]
+  },
+  "version": "1.0",
+  "description": "Preprocessing metadata for crop yield prediction model"
+}

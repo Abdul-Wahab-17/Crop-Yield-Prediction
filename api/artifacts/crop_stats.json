@@ -1,0 +1,98 @@
+{
+  "BARLEY": {
+    "mean_yield": 56.194412821350255,
+    "std_yield": 21.418794699928572,
+    "median_yield": 54.0,
+    "min_yield": 0.0,
+    "max_yield": 176.5,
+    "count": 21433
+  },
+  "BEANS": {
+    "mean_yield": 1500.6279631181897,
+    "std_yield": 658.7867940485014,
+    "median_yield": 1600.0,
+    "min_yield": 0.0,
+    "max_yield": 4500.0,
+    "count": 5965
+  },
+  "CORN": {
+    "mean_yield": 98.43145863044161,
+    "std_yield": 54.94078216527733,
+    "median_yield": 101.0,
+    "min_yield": 0.0,
+    "max_yield": 277.1,
+    "count": 82742
+  },
+  "COTTON": {
+    "mean_yield": 612.0324750320817,
+    "std_yield": 341.1253733557253,
+    "median_yield": 628.0,
+    "min_yield": 0.0,
+    "max_yield": 2179.0,
+    "count": 17923
+  },
+  "HAY": {
+    "mean_yield": 2.5091752596612706,
+    "std_yield": 0.9140095957226019,
+    "median_yield": 2.33,
+    "min_yield": 0.34,
+    "max_yield": 9.16,
+    "count": 53435
+  },
+  "OATS": {
+    "mean_yield": 54.18043937273138,
+    "std_yield": 19.5927141312471,
+    "median_yield": 55.0,
+    "min_yield": 0.0,
+    "max_yield": 150.0,
+    "count": 42151
+  },
+  "PEANUTS": {
+    "mean_yield": 2749.5265017667843,
+    "std_yield": 930.2041558318506,
+    "median_yield": 2750.0,
+    "min_yield": 0.0,
+    "max_yield": 6177.0,
+    "count": 7075
+  },
+  "RICE": {
+    "mean_yield": 5392.026623203831,
+    "std_yield": 2294.2853812659,
+    "median_yield": 5822.0,
+    "min_yield": 179.0,
+    "max_yield": 10600.0,
+    "count": 3758
+  },
+  "SORGHUM": {
+    "mean_yield": 55.22590809456709,
+    "std_yield": 24.11536875834199,
+    "median_yield": 54.2,
+    "min_yield": 0.0,
+    "max_yield": 145.0,
+    "count": 25548
+  },
+  "SOYBEANS": {
+    "mean_yield": 35.80779337680217,
+    "std_yield": 11.746829622011312,
+    "median_yield": 35.1,
+    "min_yield": 0.7,
+    "max_yield": 80.4,
+    "count": 66101
+  },
+  "SUNFLOWER": {
+    "mean_yield": 1039.172603046595,
+    "std_yield": 497.77470603773224,
+    "median_yield": 1122.0,
+    "min_yield": 0.0,
+    "max_yield": 2667.0,
+    "count": 4464
+  },
+  "WHEAT": {
+    "mean_yield": 40.95040135115503,
+    "std_yield": 16.447889349587186,
+    "median_yield": 39.1,
+    "min_yield": 0.0,
+    "max_yield": 127.8,
+    "count": 55064
+  }
+}

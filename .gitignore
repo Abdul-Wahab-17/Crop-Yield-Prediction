@@ -1,0 +1,8 @@
+__pycache__
+.mypy_cache
+api/artifacts/*.pkl
+catboost_info
+client/node_modules
+models/*.pkl
+data/*
+env
