@@ -24,7 +24,7 @@ project/
 ├── api/
 │   ├── app.py                  # Flask REST API
 │   └── artifacts/              # Models and preprocessors
-├── eeee/                       # React frontend (main branch)
+├── client/                     # React frontend
 │   └── src/
 │       └── pages/              # Frontend pages
 ├── models/                      # Trained model files
@@ -44,8 +44,8 @@ project/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd eee
+   git clone https://github.com/Abdul-Wahab-17/Crop-Yield-Prediction.git
+   cd Crop-Yield-Prediction
    ```
 
 2. **Install Python dependencies**
@@ -55,7 +55,7 @@ project/
 
 3. **Install frontend dependencies**
    ```bash
-   cd eeee
+   cd client
    npm install
    ```
 
@@ -85,7 +85,7 @@ API will run on `http://localhost:5000`
 
 #### Step 5: Start the Frontend
 ```bash
-cd eeee
+cd client
 npm start
 ```
 Frontend will run on `http://localhost:3000`
@@ -193,11 +193,6 @@ curl -X POST http://localhost:5000/predict-regional \
 
 ## 🛠️ Development
 
-### Project Branches
-- `de` - Development branch (frontend in `eeee/`)
-- `dev` - Development branch
-- `eee` - Alternative branch
-
 ### Key Scripts
 - `src/preprocess_data.py` - Data preprocessing
 - `src/model/train_models.py` - Model training
@@ -227,16 +222,14 @@ curl -X POST http://localhost:5000/predict-regional \
 - Check CORS settings in `api/app.py`
 - Verify API endpoint URLs in frontend code
 
-
 ## 👥 Authors
 
-Abdul Wahab
+- **Abdul Wahab**
 
 ## 🙏 Acknowledgments
 
 - USDA NASS for agricultural data
 - Climate data sources
 - Open-source ML libraries
-
 
 
