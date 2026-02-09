@@ -46,12 +46,11 @@ function Regional() {
       .catch(err => console.error("Failed to load metadata", err));
   }, []);
 
-  // Reset state if invalid
-  useEffect(() => {
-    if (formData.State && !metadata.states.includes(formData.State)) {
-      setFormData(prev => ({ ...prev, State: '' }));
-    }
-  }, [metadata.states]);
+useEffect(() => {
+  if (formData.State && !metadata.states.includes(formData.State)) {
+    setFormData(prev => ({ ...prev, State: '' }));
+  }
+}, [formData.State, metadata.states]);
 
   // Fetch valid states when crop changes — here crop is iterated, so we just consider all crops
   useEffect(() => {
