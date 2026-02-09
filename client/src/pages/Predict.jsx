@@ -195,7 +195,6 @@ function App() {
     setLoading(true);
     setError(null);
     setResult(null);
-    setWarnings([]);
 
     const validationErrors = validateInputs();
     if (validationErrors.length > 0) {
@@ -218,7 +217,7 @@ function App() {
       if (response.ok) {
         setResult(data);  // Store entire response object
         if (data.warnings) {
-          setWarnings(data.warnings);
+          
         }
       } else {
         setError(data.error || "Prediction failed");
