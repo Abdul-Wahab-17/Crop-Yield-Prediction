@@ -1,8 +1,59 @@
-__pycache__
-.mypy_cache
-api/artifacts/*.pkl
-catboost_info
-client/node_modules
+# ------------------------
+# Node / React
+# ------------------------
+client/node_modules/
+client/build/
+client/.env
+client/.DS_Store
+client/.cache/
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ------------------------
+# Python / FastAPI / ML
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+*.sqlite3
+
+# Artifacts / datasets / trained models
+api/artifacts/
 models/*.pkl
-data/*
-env
+models/*.cbm
+models/test_set_results.*
+models/model_comparison.*
+data/
+*.h5
+*.joblib
+*.npy
+*.npz
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+.DS_Store
+
+# Misc / system
+*.log
+*.bak
+*.tmp
+*.out
+
+# Optional: ignore PDF reports / temp documents
+*.pdf

@@ -35,7 +35,6 @@ function App() {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [warnings, setWarnings] = useState([]);
 
   // Fetch Metadata on Load
   useEffect(() => {
